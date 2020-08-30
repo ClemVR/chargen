@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import './Base.css';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="Card">
+      <div className="Generated">
+        <ul className="Generated-user">
+          <li className="Name">Name:</li>
+          <li className="Surname">Surname:</li>
+          <li className="Age">Age:</li>
+          <li className="Phone">Phone:</li>
+          <li className="Email">Email:</li>
+        </ul>
+      </div>
+      <div className="User-input">
+        <h1>Generate a new user!</h1>
+        <Button variant="contained" color="primary">GO!</Button>
+      </div>
+     </div>
     </div>
   );
 }
