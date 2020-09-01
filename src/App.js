@@ -58,8 +58,8 @@ function App() {
       </div>
           <div className="Form">
           <form>
-          <TextField id="form-textfield" fullWidth="true"></TextField>
-          <Button value="email" id="Button-form" variant="outlined" color="secondary" size="medium">Subscribe</Button>
+          <TextField  id="Form-textfield"  variant="outlined" label="subscribe to our newsletter !" placeholder="Your e-mail" fullWidth="true"></TextField>
+          <Button id="Button-form"  variant="outlined" color="secondary" size="medium">Subscribe</Button>
           </form>
           </div>
     </div>
