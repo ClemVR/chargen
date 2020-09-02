@@ -1,3 +1,24 @@
+## Simple character generator
+
+Get a simple character from the [randomuser API](https://randomuser.me/).
+
+Include name, surname, age, phone and e-mail.
+
+## How to install
+
+```
+git clone https://github.com/ClemVR/chargen.git
+```
+
+```
+npm install
+```
+
+```
+npm start
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
