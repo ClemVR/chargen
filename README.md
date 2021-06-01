@@ -1,5 +1,7 @@
 ## Simple character generator
 
+https://kind-jones-0dd925.netlify.app/
+
 Get a simple character from the [randomuser API](https://randomuser.me/).
 
 Include name, surname, age, phone and e-mail.
